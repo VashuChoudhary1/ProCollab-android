@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadProject1"
+    android:background="@color/black">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="About Project"
+      android:textColor="@color/purple_500"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginStart="120dp"
+      android:layout_marginEnd="120dp"
+      android:textAlignment="center"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="58dp"
+      android:orientation="horizontal"
+      android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Project Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/project_name"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_uploadpage"
+        android:elevation="3dp"
+        app:layout_constraintWidth_percent=".8" />
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="58dp"
+      android:orientation="horizontal"
+      android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Project Title"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/project_title"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_uploadpage"
+        android:elevation="3dp"
+        app:layout_constraintWidth_percent=".8" />
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Project Description"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/project_description"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edittext_uploadpage"
+        android:elevation="3dp"
+        app:layout_constraintWidth_percent=".8" />
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="58dp"
+      android:orientation="horizontal"
+      android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Project Type"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+    <Spinner
+        android:id="@+id/project_type"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="80dp"
+        android:background="@drawable/edittext_uploadpage"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+
+  <Button
+      android:id="@+id/upage_1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Next"
+     android:layout_gravity="right"
+      android:background="@drawable/multicolor"
+      android:backgroundTint="@null"
+      android:layout_marginTop="10dp"/>
+  </LinearLayout>
+  </ScrollView>
+
+
+</LinearLayout>

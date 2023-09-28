@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SIH Project</string>
+    <string-array name="array_project_type">
+        <item>Type</item>
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="array_project_status">
+        <item>Status</item>
+        <item>Completed</item>
+        <item>Processing</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

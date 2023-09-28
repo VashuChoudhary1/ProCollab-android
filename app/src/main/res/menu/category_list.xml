@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/done_icon"
+        android:icon="@drawable/done_icon"
+        android:title="Done"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/University_name"
+        android:title="Software" />
+    <item
+        android:id="@+id/Category"
+        android:title="Hardware" />
+    <item
+        android:id="@+id/Themes"
+        android:title="Both" />
+
+
+
+</menu>
